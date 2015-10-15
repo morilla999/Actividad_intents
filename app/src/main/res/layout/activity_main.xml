@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 1"
+        android:id="@+id/act1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 2"
+        android:id="@+id/act2"
+        android:layout_below="@+id/act1"
+        android:layout_centerHorizontal="true"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 3"
+        android:id="@+id/act3"
+        android:layout_below="@+id/act2"
+        android:layout_centerHorizontal="true"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 4"
+        android:id="@+id/act4"
+        android:layout_below="@+id/act3"
+        android:layout_alignLeft="@+id/act3"
+        android:layout_alignStart="@+id/act3"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad 5"
+        android:id="@+id/act5"
+        android:layout_below="@+id/act4"
+        android:layout_alignLeft="@+id/act1"
+        android:layout_alignStart="@+id/act1"
+        android:onClick="iniciar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salir"
+        android:id="@+id/salir"
+        android:layout_below="@+id/act5"
+        android:layout_centerHorizontal="true"
+        android:onClick="salir" />
+</RelativeLayout>

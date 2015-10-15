@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Actividad_intents</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act1">act1</string>
+    <string name="title_activity_act1_2">act1_2</string>
+    <string name="title_activity_act2">act2</string>
+    <string name="title_activity_act2_2">act2_2</string>
+    <string name="title_activity_act3">act3</string>
+    <string name="title_activity_act3_2">act3_2</string>
+    <string name="title_activity_act4">act4</string>
+    <string name="title_activity_act4_2">act4_2</string>
+    <string name="title_activity_act5">act5</string>
+
+    <string-array name="razas">
+        <item>Humano</item>
+        <item>Enano</item>
+        <item>Elfo</item>
+    </string-array>
+
+    <string-array name="clases">
+        <item>Guerrero</item>
+        <item>Explorador</item>
+        <item>Mago</item>
+        <item>Paladín</item>
+        <item>Clérigo</item>
+        <item>Pícaro</item>
+    </string-array>
+    <string name="title_activity_act5_2">act5_2</string>
+</resources>
